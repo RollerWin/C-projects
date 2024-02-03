@@ -1,0 +1,14 @@
+D:\Soft\учёба\новыйЯЮниор\C#-projects\UIElement\bin\Debug\net7.0\UIElement.exe
+D:\Soft\учёба\новыйЯЮниор\C#-projects\UIElement\bin\Debug\net7.0\UIElement.deps.json
+D:\Soft\учёба\новыйЯЮниор\C#-projects\UIElement\bin\Debug\net7.0\UIElement.runtimeconfig.json
+D:\Soft\учёба\новыйЯЮниор\C#-projects\UIElement\bin\Debug\net7.0\UIElement.dll
+D:\Soft\учёба\новыйЯЮниор\C#-projects\UIElement\bin\Debug\net7.0\UIElement.pdb
+D:\Soft\учёба\новыйЯЮниор\C#-projects\UIElement\obj\Debug\net7.0\UIElement.GeneratedMSBuildEditorConfig.editorconfig
+D:\Soft\учёба\новыйЯЮниор\C#-projects\UIElement\obj\Debug\net7.0\UIElement.AssemblyInfoInputs.cache
+D:\Soft\учёба\новыйЯЮниор\C#-projects\UIElement\obj\Debug\net7.0\UIElement.AssemblyInfo.cs
+D:\Soft\учёба\новыйЯЮниор\C#-projects\UIElement\obj\Debug\net7.0\UIElement.csproj.CoreCompileInputs.cache
+D:\Soft\учёба\новыйЯЮниор\C#-projects\UIElement\obj\Debug\net7.0\UIElement.dll
+D:\Soft\учёба\новыйЯЮниор\C#-projects\UIElement\obj\Debug\net7.0\refint\UIElement.dll
+D:\Soft\учёба\новыйЯЮниор\C#-projects\UIElement\obj\Debug\net7.0\UIElement.pdb
+D:\Soft\учёба\новыйЯЮниор\C#-projects\UIElement\obj\Debug\net7.0\UIElement.genruntimeconfig.cache
+D:\Soft\учёба\новыйЯЮниор\C#-projects\UIElement\obj\Debug\net7.0\ref\UIElement.dll
