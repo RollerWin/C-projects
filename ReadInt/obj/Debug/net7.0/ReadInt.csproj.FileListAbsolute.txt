@@ -1,0 +1,14 @@
+D:\Soft\учёба\новыйЯЮниор\C#-projects\ReadInt\bin\Debug\net7.0\ReadInt.exe
+D:\Soft\учёба\новыйЯЮниор\C#-projects\ReadInt\bin\Debug\net7.0\ReadInt.deps.json
+D:\Soft\учёба\новыйЯЮниор\C#-projects\ReadInt\bin\Debug\net7.0\ReadInt.runtimeconfig.json
+D:\Soft\учёба\новыйЯЮниор\C#-projects\ReadInt\bin\Debug\net7.0\ReadInt.dll
+D:\Soft\учёба\новыйЯЮниор\C#-projects\ReadInt\bin\Debug\net7.0\ReadInt.pdb
+D:\Soft\учёба\новыйЯЮниор\C#-projects\ReadInt\obj\Debug\net7.0\ReadInt.GeneratedMSBuildEditorConfig.editorconfig
+D:\Soft\учёба\новыйЯЮниор\C#-projects\ReadInt\obj\Debug\net7.0\ReadInt.AssemblyInfoInputs.cache
+D:\Soft\учёба\новыйЯЮниор\C#-projects\ReadInt\obj\Debug\net7.0\ReadInt.AssemblyInfo.cs
+D:\Soft\учёба\новыйЯЮниор\C#-projects\ReadInt\obj\Debug\net7.0\ReadInt.csproj.CoreCompileInputs.cache
+D:\Soft\учёба\новыйЯЮниор\C#-projects\ReadInt\obj\Debug\net7.0\ReadInt.dll
+D:\Soft\учёба\новыйЯЮниор\C#-projects\ReadInt\obj\Debug\net7.0\refint\ReadInt.dll
+D:\Soft\учёба\новыйЯЮниор\C#-projects\ReadInt\obj\Debug\net7.0\ReadInt.pdb
+D:\Soft\учёба\новыйЯЮниор\C#-projects\ReadInt\obj\Debug\net7.0\ReadInt.genruntimeconfig.cache
+D:\Soft\учёба\новыйЯЮниор\C#-projects\ReadInt\obj\Debug\net7.0\ref\ReadInt.dll
