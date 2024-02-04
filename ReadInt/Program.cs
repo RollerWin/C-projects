@@ -2,19 +2,20 @@
 {
     static void Main(string[] args)
     {
-        string userInput = Console.ReadLine();
-        int correctNumber = CheckCorrectInput(userInput);
-
+        int correctNumber = TakeInputNumber();
         Console.WriteLine($"Вы ввели число: {correctNumber}");
     }
 
-    static int CheckCorrectInput(string userInput)
+    static int TakeInputNumber()
     {
+        string userInput;
         bool isCorrect = false;
         int correctNumber = 0;
 
         while(isCorrect != true)
         {
+            userInput = Console.ReadLine();
+
             if(int.TryParse(userInput, out correctNumber))
             {
                 isCorrect = true;
@@ -24,7 +25,6 @@
                 Console.WriteLine("Некорректный ввод! Попробуйте ещё раз");
                 Console.ReadKey();
                 Console.Clear();
-                userInput = Console.ReadLine();
             }
         }
 
