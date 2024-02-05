@@ -1,0 +1,14 @@
+D:\Soft\учёба\новыйЯЮниор\C#-projects\kansas city shuffle\obj\Debug\net7.0\kansas city shuffle.GeneratedMSBuildEditorConfig.editorconfig
+D:\Soft\учёба\новыйЯЮниор\C#-projects\kansas city shuffle\obj\Debug\net7.0\kansas city shuffle.AssemblyInfoInputs.cache
+D:\Soft\учёба\новыйЯЮниор\C#-projects\kansas city shuffle\obj\Debug\net7.0\kansas city shuffle.AssemblyInfo.cs
+D:\Soft\учёба\новыйЯЮниор\C#-projects\kansas city shuffle\obj\Debug\net7.0\kansas city shuffle.csproj.CoreCompileInputs.cache
+D:\Soft\учёба\новыйЯЮниор\C#-projects\kansas city shuffle\bin\Debug\net7.0\kansas city shuffle.exe
+D:\Soft\учёба\новыйЯЮниор\C#-projects\kansas city shuffle\bin\Debug\net7.0\kansas city shuffle.deps.json
+D:\Soft\учёба\новыйЯЮниор\C#-projects\kansas city shuffle\bin\Debug\net7.0\kansas city shuffle.runtimeconfig.json
+D:\Soft\учёба\новыйЯЮниор\C#-projects\kansas city shuffle\bin\Debug\net7.0\kansas city shuffle.dll
+D:\Soft\учёба\новыйЯЮниор\C#-projects\kansas city shuffle\bin\Debug\net7.0\kansas city shuffle.pdb
+D:\Soft\учёба\новыйЯЮниор\C#-projects\kansas city shuffle\obj\Debug\net7.0\kansas city shuffle.dll
+D:\Soft\учёба\новыйЯЮниор\C#-projects\kansas city shuffle\obj\Debug\net7.0\refint\kansas city shuffle.dll
+D:\Soft\учёба\новыйЯЮниор\C#-projects\kansas city shuffle\obj\Debug\net7.0\kansas city shuffle.pdb
+D:\Soft\учёба\новыйЯЮниор\C#-projects\kansas city shuffle\obj\Debug\net7.0\kansas city shuffle.genruntimeconfig.cache
+D:\Soft\учёба\новыйЯЮниор\C#-projects\kansas city shuffle\obj\Debug\net7.0\ref\kansas city shuffle.dll
