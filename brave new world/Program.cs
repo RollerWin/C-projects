@@ -16,10 +16,10 @@
         int scorePositionX = 0;
         int scorePositionY = map.GetLength(1);
 
-        int defaultPlayerX = map.GetLength(0) / 2;
-        int defaultPlayerY = map.GetLength(1) / 2;
-        int playerX = defaultPlayerX;
-        int playerY = defaultPlayerY;
+        int defaultplayerPositionX = map.GetLength(0) / 2;
+        int defaultplayerPositionY = map.GetLength(1) / 2;
+        int playerPositionX = defaultplayerPositionX;
+        int playerPositionY = defaultplayerPositionY;
 
 
         ConsoleColor borderColor = ConsoleColor.Red;
@@ -33,19 +33,19 @@
         while(currentCoins != maxCoins)
         {
             
-            UpdateScreen(currentCoins, maxCoins, scorePositionX, scorePositionY, scoreColor, playerSymbol, playerX, playerY, playerColor, map, borderColor);
+            UpdateScreen(currentCoins, maxCoins, scorePositionX, scorePositionY, scoreColor, playerSymbol, playerPositionX, playerPositionY, playerColor, map, borderColor);
             userInput = Console.ReadKey(true);
-            HandleInput(userInput, ref playerX, ref playerY, map, wallSymbol);
-            CheckCollisionWithCoin(map, coinSymbol, ref currentCoins, emptyFieldSymbol, playerX, playerY);
+            HandleInput(userInput, ref playerPositionX, ref playerPositionY, map, wallSymbol);
+            HandleCoinCollision(map, coinSymbol, ref currentCoins, emptyFieldSymbol, playerPositionX, playerPositionY);
         }
 
-        UpdateScreen(currentCoins, maxCoins, scorePositionX, scorePositionY, scoreColor, playerSymbol, playerX, playerY, playerColor, map, borderColor);
+        UpdateScreen(currentCoins, maxCoins, scorePositionX, scorePositionY, scoreColor, playerSymbol, playerPositionX, playerPositionY, playerColor, map, borderColor);
     }
 
-    static void DrawPlayer(char playerSymbol, int playerX, int playerY, ConsoleColor color)
+    static void DrawPlayer(char playerSymbol, int playerPositionX, int playerPositionY, ConsoleColor color)
     {
         Console.ForegroundColor = color;
-        Console.SetCursorPosition(playerX, playerY);
+        Console.SetCursorPosition(playerPositionX, playerPositionY);
         Console.Write(playerSymbol);
     }
 
@@ -56,11 +56,11 @@
         Console.WriteLine($"\nСобрано {currentCoins} из {maxCoins}");
     }
 
-    static void UpdateScreen(int currentCoins, int maxCoins, int scorePositionX, int scorePositionY, ConsoleColor scoreColor, char playerSymbol, int playerX, int playerY, ConsoleColor playerColor, char[,] map, ConsoleColor borderColor)
+    static void UpdateScreen(int currentCoins, int maxCoins, int scorePositionX, int scorePositionY, ConsoleColor scoreColor, char playerSymbol, int playerPositionX, int playerPositionY, ConsoleColor playerColor, char[,] map, ConsoleColor borderColor)
     {
         Console.Clear();
         DrawMap(map, borderColor);
-        DrawPlayer(playerSymbol, playerX, playerY, playerColor);
+        DrawPlayer(playerSymbol, playerPositionX, playerPositionY, playerColor);
         DrawScore(currentCoins, maxCoins, scorePositionX, scorePositionY, scoreColor);
     }
 
@@ -126,58 +126,58 @@
         return coinsCounter;
     }
 
-    static void HandleInput(ConsoleKeyInfo userInput, ref int playerX, ref int playerY, char[,] map, char wallSymbol)
+    static void HandleInput(ConsoleKeyInfo userInput, ref int playerPositionX, ref int playerPositionY, char[,] map, char wallSymbol)
     {
         int indexDirectionX = 0;
         int indexDirectionY = 1;
 
         int[] playerDirection = GetDirection(userInput, indexDirectionX, indexDirectionY);
 
-        int nextPlayerX = playerX + playerDirection[indexDirectionX];
-        int nextPlayerY = playerY + playerDirection[indexDirectionY];
+        int nextplayerPositionX = playerPositionX + playerDirection[indexDirectionX];
+        int nextplayerPositionY = playerPositionY + playerDirection[indexDirectionY];
 
-        if(map[nextPlayerX, nextPlayerY] != wallSymbol)
+        if(map[nextplayerPositionX, nextplayerPositionY] != wallSymbol)
         {
-            playerX = nextPlayerX;
-            playerY = nextPlayerY;
+            playerPositionX = nextplayerPositionX;
+            playerPositionY = nextplayerPositionY;
         }
     }
 
     static int[] GetDirection(ConsoleKeyInfo userInput, int indexDirectionX, int indexDirectionY)
     {
-        const ConsoleKey commandShiftLeftArrow = ConsoleKey.LeftArrow;
-        const ConsoleKey commandShiftLeftBoard = ConsoleKey.A;
+        const ConsoleKey СommandShiftLeftArrowawMap = ConsoleKey.LeftArrow;
+        const ConsoleKey СommandShiftLeftBoard = ConsoleKey.A;
 
-        const ConsoleKey commandShiftRightArrow = ConsoleKey.RightArrow;
-        const ConsoleKey commandShiftRightBoard = ConsoleKey.D;
+        const ConsoleKey СommandShiftRightArrow = ConsoleKey.RightArrow;
+        const ConsoleKey СommandShiftRightBoard = ConsoleKey.D;
 
-        const ConsoleKey commandShiftUpArrow = ConsoleKey.UpArrow;
-        const ConsoleKey commandShiftUpBoard = ConsoleKey.W;
+        const ConsoleKey СommandShiftUpArrow = ConsoleKey.UpArrow;
+        const ConsoleKey СommandShiftUpBoard = ConsoleKey.W;
 
-        const ConsoleKey commandShiftDownArrow = ConsoleKey.DownArrow;
-        const ConsoleKey commandShiftDownBoard = ConsoleKey.S;
+        const ConsoleKey СommandShiftDownArrow = ConsoleKey.DownArrow;
+        const ConsoleKey СommandShiftDownBoard = ConsoleKey.S;
 
         int[] playerDirection = {0, 0};
 
         switch(userInput.Key)
         {
-            case commandShiftLeftArrow:
-            case commandShiftLeftBoard:
+            case СommandShiftLeftArrowawMap:
+            case СommandShiftLeftBoard:
                 playerDirection[indexDirectionX] = -1;
             break;
 
-            case commandShiftRightArrow:
-            case commandShiftRightBoard:
+            case СommandShiftRightArrow:
+            case СommandShiftRightBoard:
                 playerDirection[indexDirectionX] = 1;
             break;
 
-            case commandShiftUpArrow:
-            case commandShiftUpBoard:
+            case СommandShiftUpArrow:
+            case СommandShiftUpBoard:
                 playerDirection[indexDirectionY] = -1;
             break;
 
-            case commandShiftDownArrow:
-            case commandShiftDownBoard:
+            case СommandShiftDownArrow:
+            case СommandShiftDownBoard:
                 playerDirection[indexDirectionY] = 1;
             break;
         }
@@ -185,12 +185,12 @@
         return playerDirection;
     }
 
-    static void CheckCollisionWithCoin(char[,] map, char coinSymbol, ref int currentCoins, char emptyFieldSymbol, int playerX, int playerY)
+    static void HandleCoinCollision(char[,] map, char coinSymbol, ref int currentCoins, char emptyFieldSymbol, int playerPositionX, int playerPositionY)
     {
-        if(map[playerX, playerY] == coinSymbol)
+        if(map[playerPositionX, playerPositionY] == coinSymbol)
         {
             currentCoins++;
-            map[playerX, playerY] = emptyFieldSymbol;
+            map[playerPositionX, playerPositionY] = emptyFieldSymbol;
         }
     }
 }
