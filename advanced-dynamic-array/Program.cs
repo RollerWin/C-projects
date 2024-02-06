@@ -25,14 +25,7 @@
                 break;
 
                 default:
-                    if(int.TryParse(userInput, out addedNumber))
-                    {
-                        numbers.Add(addedNumber);
-                    }
-                    else
-                    {
-                        Console.WriteLine("Неверная команда");
-                    }
+                    CheckCorrectInput(numbers, userInput);
                 break;
             }
 
@@ -49,5 +42,17 @@
         }
 
         Console.WriteLine($"Сумма чисел: {sumNumbers}");
+    }
+
+    static void CheckCorrectInput(List<int> numbers, string userInput)
+    {
+        if(int.TryParse(userInput, out int addedNumber))
+        {
+            numbers.Add(addedNumber);
+        }
+        else
+        {
+            Console.WriteLine("Неверная команда");
+        }
     }
 }
