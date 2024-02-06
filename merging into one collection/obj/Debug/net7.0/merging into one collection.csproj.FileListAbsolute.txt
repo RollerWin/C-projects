@@ -1,0 +1,14 @@
+D:\Soft\учёба\новыйЯЮниор\C#-projects\merging into one collection\bin\Debug\net7.0\merging into one collection.exe
+D:\Soft\учёба\новыйЯЮниор\C#-projects\merging into one collection\bin\Debug\net7.0\merging into one collection.deps.json
+D:\Soft\учёба\новыйЯЮниор\C#-projects\merging into one collection\bin\Debug\net7.0\merging into one collection.runtimeconfig.json
+D:\Soft\учёба\новыйЯЮниор\C#-projects\merging into one collection\bin\Debug\net7.0\merging into one collection.dll
+D:\Soft\учёба\новыйЯЮниор\C#-projects\merging into one collection\bin\Debug\net7.0\merging into one collection.pdb
+D:\Soft\учёба\новыйЯЮниор\C#-projects\merging into one collection\obj\Debug\net7.0\merging into one collection.GeneratedMSBuildEditorConfig.editorconfig
+D:\Soft\учёба\новыйЯЮниор\C#-projects\merging into one collection\obj\Debug\net7.0\merging into one collection.AssemblyInfoInputs.cache
+D:\Soft\учёба\новыйЯЮниор\C#-projects\merging into one collection\obj\Debug\net7.0\merging into one collection.AssemblyInfo.cs
+D:\Soft\учёба\новыйЯЮниор\C#-projects\merging into one collection\obj\Debug\net7.0\merging into one collection.csproj.CoreCompileInputs.cache
+D:\Soft\учёба\новыйЯЮниор\C#-projects\merging into one collection\obj\Debug\net7.0\merging into one collection.dll
+D:\Soft\учёба\новыйЯЮниор\C#-projects\merging into one collection\obj\Debug\net7.0\refint\merging into one collection.dll
+D:\Soft\учёба\новыйЯЮниор\C#-projects\merging into one collection\obj\Debug\net7.0\merging into one collection.pdb
+D:\Soft\учёба\новыйЯЮниор\C#-projects\merging into one collection\obj\Debug\net7.0\merging into one collection.genruntimeconfig.cache
+D:\Soft\учёба\новыйЯЮниор\C#-projects\merging into one collection\obj\Debug\net7.0\ref\merging into one collection.dll

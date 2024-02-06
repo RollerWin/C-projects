@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "merging into one collection/1.0.0": {
+        "runtime": {
+          "merging into one collection.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "merging into one collection/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
