@@ -13,16 +13,7 @@
         Console.WriteLine($"Очередь составлена! Теперь в ней {numberOfPeople} человек");
         Console.Clear();
 
-        for(int i = 0; i < numberOfPeople; i++)
-        {
-            Console.WriteLine("На кассу пришёл покупатель");
-            Console.WriteLine($"Чек составил: {queueOfPeople.Peek()} рублей");
-            amountMoney += queueOfPeople.Dequeue();
-            Console.WriteLine($"Общая сумма в кассе: {amountMoney} рублей");
-
-            Console.ReadKey();
-            Console.Clear();
-        }
+        HandlePurchases(queueOfPeople, ref amountMoney);
 
         Console.WriteLine($"Покупатели законились!\nОбщая сумма составила {amountMoney} рублей");
     }
@@ -62,5 +53,19 @@
         }
 
         return correctNumber;
+    }
+
+    static void HandlePurchases(Queue<int> queueOfPeople, ref int amountMoney)
+    {
+        while(queueOfPeople.Count > 0)
+        {
+            Console.WriteLine("На кассу пришёл покупатель");
+            Console.WriteLine($"Чек составил: {queueOfPeople.Peek()} рублей");
+            amountMoney += queueOfPeople.Dequeue();
+            Console.WriteLine($"Общая сумма в кассе: {amountMoney} рублей");
+
+            Console.ReadKey();
+            Console.Clear();
+        }
     }
 }
