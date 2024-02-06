@@ -1,10 +1,8 @@
 ﻿class Program
 {
     static void Main(string[] args)
-    {
+    {   
         Queue<int> queueOfPeople = new Queue<int>();
-
-        int amountMoney = 0;
 
         Console.Write("Введите количество человек в очереди: ");
         int numberOfPeople = ReadPositiveNumber();
@@ -13,7 +11,7 @@
         Console.WriteLine($"Очередь составлена! Теперь в ней {numberOfPeople} человек");
         Console.Clear();
 
-        HandlePurchases(queueOfPeople, ref amountMoney);
+        int amountMoney = ServeClients(queueOfPeople);
 
         Console.WriteLine($"Покупатели законились!\nОбщая сумма составила {amountMoney} рублей");
     }
@@ -55,8 +53,10 @@
         return correctNumber;
     }
 
-    static void HandlePurchases(Queue<int> queueOfPeople, ref int amountMoney)
+    static int ServeClients(Queue<int> queueOfPeople)
     {
+        int amountMoney = 0;
+
         while(queueOfPeople.Count > 0)
         {
             Console.WriteLine("На кассу пришёл покупатель");
@@ -67,5 +67,7 @@
             Console.ReadKey();
             Console.Clear();
         }
+
+        return amountMoney;
     }
 }
