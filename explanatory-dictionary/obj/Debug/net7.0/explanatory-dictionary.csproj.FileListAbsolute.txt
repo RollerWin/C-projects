@@ -1,0 +1,14 @@
+D:\Soft\учёба\новыйЯЮниор\C#-projects\explanatory-dictionary\bin\Debug\net7.0\explanatory-dictionary.exe
+D:\Soft\учёба\новыйЯЮниор\C#-projects\explanatory-dictionary\bin\Debug\net7.0\explanatory-dictionary.deps.json
+D:\Soft\учёба\новыйЯЮниор\C#-projects\explanatory-dictionary\bin\Debug\net7.0\explanatory-dictionary.runtimeconfig.json
+D:\Soft\учёба\новыйЯЮниор\C#-projects\explanatory-dictionary\bin\Debug\net7.0\explanatory-dictionary.dll
+D:\Soft\учёба\новыйЯЮниор\C#-projects\explanatory-dictionary\bin\Debug\net7.0\explanatory-dictionary.pdb
+D:\Soft\учёба\новыйЯЮниор\C#-projects\explanatory-dictionary\obj\Debug\net7.0\explanatory-dictionary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Soft\учёба\новыйЯЮниор\C#-projects\explanatory-dictionary\obj\Debug\net7.0\explanatory-dictionary.AssemblyInfoInputs.cache
+D:\Soft\учёба\новыйЯЮниор\C#-projects\explanatory-dictionary\obj\Debug\net7.0\explanatory-dictionary.AssemblyInfo.cs
+D:\Soft\учёба\новыйЯЮниор\C#-projects\explanatory-dictionary\obj\Debug\net7.0\explanatory-dictionary.csproj.CoreCompileInputs.cache
+D:\Soft\учёба\новыйЯЮниор\C#-projects\explanatory-dictionary\obj\Debug\net7.0\explanatory-dictionary.dll
+D:\Soft\учёба\новыйЯЮниор\C#-projects\explanatory-dictionary\obj\Debug\net7.0\refint\explanatory-dictionary.dll
+D:\Soft\учёба\новыйЯЮниор\C#-projects\explanatory-dictionary\obj\Debug\net7.0\explanatory-dictionary.pdb
+D:\Soft\учёба\новыйЯЮниор\C#-projects\explanatory-dictionary\obj\Debug\net7.0\explanatory-dictionary.genruntimeconfig.cache
+D:\Soft\учёба\новыйЯЮниор\C#-projects\explanatory-dictionary\obj\Debug\net7.0\ref\explanatory-dictionary.dll
