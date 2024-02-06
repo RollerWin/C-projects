@@ -1,0 +1,14 @@
+D:\Soft\учёба\новыйЯЮниор\C#-projects\queue-at-store\bin\Debug\net7.0\queue-at-store.exe
+D:\Soft\учёба\новыйЯЮниор\C#-projects\queue-at-store\bin\Debug\net7.0\queue-at-store.deps.json
+D:\Soft\учёба\новыйЯЮниор\C#-projects\queue-at-store\bin\Debug\net7.0\queue-at-store.runtimeconfig.json
+D:\Soft\учёба\новыйЯЮниор\C#-projects\queue-at-store\bin\Debug\net7.0\queue-at-store.dll
+D:\Soft\учёба\новыйЯЮниор\C#-projects\queue-at-store\bin\Debug\net7.0\queue-at-store.pdb
+D:\Soft\учёба\новыйЯЮниор\C#-projects\queue-at-store\obj\Debug\net7.0\queue-at-store.GeneratedMSBuildEditorConfig.editorconfig
+D:\Soft\учёба\новыйЯЮниор\C#-projects\queue-at-store\obj\Debug\net7.0\queue-at-store.AssemblyInfoInputs.cache
+D:\Soft\учёба\новыйЯЮниор\C#-projects\queue-at-store\obj\Debug\net7.0\queue-at-store.AssemblyInfo.cs
+D:\Soft\учёба\новыйЯЮниор\C#-projects\queue-at-store\obj\Debug\net7.0\queue-at-store.csproj.CoreCompileInputs.cache
+D:\Soft\учёба\новыйЯЮниор\C#-projects\queue-at-store\obj\Debug\net7.0\queue-at-store.dll
+D:\Soft\учёба\новыйЯЮниор\C#-projects\queue-at-store\obj\Debug\net7.0\refint\queue-at-store.dll
+D:\Soft\учёба\новыйЯЮниор\C#-projects\queue-at-store\obj\Debug\net7.0\queue-at-store.pdb
+D:\Soft\учёба\новыйЯЮниор\C#-projects\queue-at-store\obj\Debug\net7.0\queue-at-store.genruntimeconfig.cache
+D:\Soft\учёба\новыйЯЮниор\C#-projects\queue-at-store\obj\Debug\net7.0\ref\queue-at-store.dll

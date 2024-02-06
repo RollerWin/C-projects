@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "queue-at-store/1.0.0": {
+        "runtime": {
+          "queue-at-store.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "queue-at-store/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
