@@ -2,8 +2,8 @@
 {
     static void Main(string[] args)
     {
-        string commandSumNumbers = "sum";
-        string commandExit = "exit";
+        const string CommandSumNumbers = "sum";
+        const string CommandExit = "exit";
 
         List<int> numbers = new List<int>();
 
@@ -14,22 +14,28 @@
         {
             string userInput = Console.ReadLine();
 
-            if(int.TryParse(userInput, out addedNumber))
+            switch(userInput)
             {
-                numbers.Add(addedNumber);
+                case CommandSumNumbers:
+                    SumNumbers(numbers);
+                break;
+
+                case CommandExit:
+                    isRun = false;
+                break;
+
+                default:
+                    if(int.TryParse(userInput, out addedNumber))
+                    {
+                        numbers.Add(addedNumber);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Неверная команда");
+                    }
+                break;
             }
-            else if(userInput == commandSumNumbers)
-            {
-                SumNumbers(numbers);
-            }
-            else if(userInput == commandExit)
-            {
-                isRun = false;
-            }
-            else
-            {
-                Console.WriteLine("Неверная команда");
-            }
+
         }
     }
 
