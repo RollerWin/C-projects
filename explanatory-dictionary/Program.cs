@@ -44,7 +44,7 @@
         Console.Write("Введите новое слово: ");
         string userKeyInput = Console.ReadLine();
 
-        if(FindMatch(userKeyInput, dictionary) == true)
+        if(dictionary.ContainsKey(userKeyInput) == true)
         {
             Console.WriteLine("Это слово уже есть в словаре!");
         }
@@ -56,28 +56,13 @@
             Console.WriteLine("Слово добавлено!");
         }
     }
-    
-    static bool FindMatch(string userInput, Dictionary<string,string> dictionary)
-    {
-        bool isFind = false;
-
-        foreach(var key in dictionary.Keys)
-        {
-            if(key == userInput)
-            {
-                isFind = true;
-            }
-        }
-
-        return isFind;
-    }
 
     static void SearchWord(Dictionary<string,string> dictionary)
     {
         Console.Write("Введите интересующее вас слово: ");
         string userInput = Console.ReadLine();
 
-        if(FindMatch(userInput, dictionary) == true)
+        if(dictionary.ContainsKey(userInput) == true)
         {
             Console.WriteLine($"Значение: {dictionary[userInput]}");
         }
