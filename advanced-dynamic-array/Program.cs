@@ -8,7 +8,6 @@
         List<int> numbers = new List<int>();
 
         bool isRun = true;
-        int addedNumber;
         
         while(isRun)
         {
@@ -25,10 +24,9 @@
                 break;
 
                 default:
-                    CheckCorrectInput(numbers, userInput);
+                    TryAddNumber(numbers, userInput);
                 break;
             }
-
         }
     }
 
@@ -44,7 +42,7 @@
         Console.WriteLine($"Сумма чисел: {sumNumbers}");
     }
 
-    static void CheckCorrectInput(List<int> numbers, string userInput)
+    static void TryAddNumber(List<int> numbers, string userInput)
     {
         if(int.TryParse(userInput, out int addedNumber))
         {
