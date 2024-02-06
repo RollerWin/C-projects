@@ -1,0 +1,14 @@
+D:\Soft\учёба\новыйЯЮниор\C#-projects\advanced-dynamic-array\obj\Debug\net7.0\advanced-dynamic-array.GeneratedMSBuildEditorConfig.editorconfig
+D:\Soft\учёба\новыйЯЮниор\C#-projects\advanced-dynamic-array\obj\Debug\net7.0\advanced-dynamic-array.AssemblyInfoInputs.cache
+D:\Soft\учёба\новыйЯЮниор\C#-projects\advanced-dynamic-array\obj\Debug\net7.0\advanced-dynamic-array.AssemblyInfo.cs
+D:\Soft\учёба\новыйЯЮниор\C#-projects\advanced-dynamic-array\obj\Debug\net7.0\advanced-dynamic-array.csproj.CoreCompileInputs.cache
+D:\Soft\учёба\новыйЯЮниор\C#-projects\advanced-dynamic-array\bin\Debug\net7.0\advanced-dynamic-array.exe
+D:\Soft\учёба\новыйЯЮниор\C#-projects\advanced-dynamic-array\bin\Debug\net7.0\advanced-dynamic-array.deps.json
+D:\Soft\учёба\новыйЯЮниор\C#-projects\advanced-dynamic-array\bin\Debug\net7.0\advanced-dynamic-array.runtimeconfig.json
+D:\Soft\учёба\новыйЯЮниор\C#-projects\advanced-dynamic-array\bin\Debug\net7.0\advanced-dynamic-array.dll
+D:\Soft\учёба\новыйЯЮниор\C#-projects\advanced-dynamic-array\bin\Debug\net7.0\advanced-dynamic-array.pdb
+D:\Soft\учёба\новыйЯЮниор\C#-projects\advanced-dynamic-array\obj\Debug\net7.0\advanced-dynamic-array.dll
+D:\Soft\учёба\новыйЯЮниор\C#-projects\advanced-dynamic-array\obj\Debug\net7.0\refint\advanced-dynamic-array.dll
+D:\Soft\учёба\новыйЯЮниор\C#-projects\advanced-dynamic-array\obj\Debug\net7.0\advanced-dynamic-array.pdb
+D:\Soft\учёба\новыйЯЮниор\C#-projects\advanced-dynamic-array\obj\Debug\net7.0\advanced-dynamic-array.genruntimeconfig.cache
+D:\Soft\учёба\новыйЯЮниор\C#-projects\advanced-dynamic-array\obj\Debug\net7.0\ref\advanced-dynamic-array.dll
