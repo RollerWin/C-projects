@@ -1,0 +1,14 @@
+D:\Soft\учёба\новыйЯЮниор\C#-projects\PersonnelAccounting\Program\bin\Debug\net7.0\Program.exe
+D:\Soft\учёба\новыйЯЮниор\C#-projects\PersonnelAccounting\Program\bin\Debug\net7.0\Program.deps.json
+D:\Soft\учёба\новыйЯЮниор\C#-projects\PersonnelAccounting\Program\bin\Debug\net7.0\Program.runtimeconfig.json
+D:\Soft\учёба\новыйЯЮниор\C#-projects\PersonnelAccounting\Program\bin\Debug\net7.0\Program.dll
+D:\Soft\учёба\новыйЯЮниор\C#-projects\PersonnelAccounting\Program\bin\Debug\net7.0\Program.pdb
+D:\Soft\учёба\новыйЯЮниор\C#-projects\PersonnelAccounting\Program\obj\Debug\net7.0\Program.GeneratedMSBuildEditorConfig.editorconfig
+D:\Soft\учёба\новыйЯЮниор\C#-projects\PersonnelAccounting\Program\obj\Debug\net7.0\Program.AssemblyInfoInputs.cache
+D:\Soft\учёба\новыйЯЮниор\C#-projects\PersonnelAccounting\Program\obj\Debug\net7.0\Program.AssemblyInfo.cs
+D:\Soft\учёба\новыйЯЮниор\C#-projects\PersonnelAccounting\Program\obj\Debug\net7.0\Program.csproj.CoreCompileInputs.cache
+D:\Soft\учёба\новыйЯЮниор\C#-projects\PersonnelAccounting\Program\obj\Debug\net7.0\Program.dll
+D:\Soft\учёба\новыйЯЮниор\C#-projects\PersonnelAccounting\Program\obj\Debug\net7.0\refint\Program.dll
+D:\Soft\учёба\новыйЯЮниор\C#-projects\PersonnelAccounting\Program\obj\Debug\net7.0\Program.pdb
+D:\Soft\учёба\новыйЯЮниор\C#-projects\PersonnelAccounting\Program\obj\Debug\net7.0\Program.genruntimeconfig.cache
+D:\Soft\учёба\новыйЯЮниор\C#-projects\PersonnelAccounting\Program\obj\Debug\net7.0\ref\Program.dll
